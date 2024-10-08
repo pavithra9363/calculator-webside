@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background:linear-gradient(to right bottom, pink,skyblue,violet);
+
+    
+}
+
+#calculate{     
+    position: relative;
+    border:transparent;
+    outline: none;
+    background:linear-gradient(to left bottom, pink,skyblue,violet);
+    /* box-shadow:rgb(248, 205, 247),-4px -2px 2px rgb(236, 217, 221); */
+    box-shadow:  inset 5px 10px 10px rgb(197, 58, 192),inset -5px -10px 10px pink
+    ,2px 2px 2px rgb(248, 205, 247),-2px -2px 2px rgb(236, 217, 221),-2px -2px 2px rgb(243, 197, 241),2px 2px 2px rgb(243, 207, 242),-2px -2px 2px rgb(243, 197, 241),-2px -2px 2px rgb(243, 197, 241);
+    border-radius: 20px;
+    width: 270px;
+    height: 40px;
+    top:10px ;
+    left: 10px;
+    text-align: right;
+    font-size:20px ;
+}
+
+
+
+.buttons{
+     
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 480px;
+    
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgb(240, 199, 240),-5px -5px 2px rgb(240, 199, 240);
+    
+
+    background: linear-gradient( to right bottom,rgb(245, 105, 128),
+    rgb(145, 78, 190),violet,skyblue,pink ,rgb(53, 192, 192));
+    
+   
+   
+}
+    
+
+button{
+    border: none;
+    height:60px;
+    width:60px;
+    border-radius: 40%;
+    box-shadow:  inset 5px 10px 10px rgb(197, 58, 192),inset -5px -10px 10px pink
+    ,2px 2px 2px rgb(248, 205, 247),-2px -2px 2px rgb(236, 217, 221),-2px -2px 2px rgb(243, 197, 241),2px 2px 2px rgb(243, 207, 242),-2px -2px 2px rgb(243, 197, 241),-2px -2px 2px rgb(243, 197, 241);
+    box-shadow: 40px;
+    font-size: 20px;
+    
+    
+}
+ button:hover{
+    
+    box-shadow:  inset -5px -10px pink,inset 5px 10px rgb(197, 58, 192);
+    
+    
+}
+.buttonl1{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin-top:20px;
+}
+
+.buttonl2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonl3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonl4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonl5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <script src="./calsi.js"></script>
+    <link rel="stylesheet" href="./calsi.css">
+</head>
+
+<body>
+    <div class="c1">
+        <h1>CALCULATER</h1>
+        <div class="buttons">
+            <div><input type="text" id="calculate"></div>
+            <div class="buttonl1">
+                <button onclick="clearScreen()">Ac</button>
+                <button onclick="deleteKey('DE')">DE</button>
+                <button onclick="calsi('00')">00</button>
+                <button onclick="calsi('/')">/</button>
+
+
+            </div>
+
+
+
+            <div class="buttonl2">
+                <button onclick="calsi(7)">7</button>
+                <button onclick="calsi(8)">8</button>
+                <button onclick="calsi(9)">9</button>
+                <button onclick="calsi('*')">*</button>
+
+
+            </div>
+
+            <div class="buttonl3">
+                <button onclick="calsi(4)">4</button>
+                <button onclick="calsi(5)">5</button>
+                <button onclick="calsi(6)">6</button>
+                <button onclick="calsi('-')">-</button>
+
+            </div>
+
+            <div class="buttonl4">
+                <button onclick="calsi(1)">1</button>
+                <button onclick="calsi(2)">2</button>
+                <button onclick="calsi(3)">3</button>
+                <button onclick="calsi('+')">+</button>
+            </div>
+
+            <div class="buttonl5">
+                <button onclick="calsi('%')">%</button>
+                <button onclick="calsi('0')">0</button>
+                <button onclick="calsi('.')">.</button>
+                <button onclick="equalto('=')">=</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
